@@ -95,7 +95,7 @@ body {
     width: 150px;
     height: 45px;
     border: none;
-    border-radius: 25px; /* Rounded buttons */
+    border-radius: 25px; 
     font-size: 16px;
     text-transform: capitalize;
     cursor: pointer;
@@ -319,15 +319,9 @@ color: #62C3E7;
 .div3-content a i:hover {
     background-color: #007bff;
 }
-/*  */
-/* .div3-content a { */
-    /* color: #fff; */
-    /* display: inline; */
-/* } */
 
 /* ////////////////////////////section4//////////////////////// */
 .section4 {
-    /* background-color: #f7f7f7; */
     margin-top:100px;
     width: 100%;
 
@@ -380,7 +374,6 @@ color: #62C3E7;
     margin-right: 20px;
 }
 .div4 span{
-    /* display: inline-block; */
     font-size: 20px;
 }
 .div4-p{
@@ -405,6 +398,7 @@ color: #62C3E7;
       }
       .div5-main-title:hover {
         color:#fd8fc6;
+        
      }
     
       .div5-line {
@@ -521,11 +515,11 @@ color: #62C3E7;
 .container6{
     display: flex;
     justify-content: space-around;
-    height: 300px; /* Adjust the height as needed */
+    height: 300px; 
     background-image: url('../Images/carousel-2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed; /* Keeps the background fixed for this div */
+    background-attachment: fixed; 
     background-position: center;
     color: white;
     text-align: center;
@@ -585,20 +579,18 @@ color: #62C3E7;
     content: "";
     width: 80px;
     height: 2px;
-    background-color: #4a90e2; 
     display: block;
     margin: 5px auto;
 }
+
 .pricing-table {
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
 }
 .container7 {
     display: flex;
     gap: 50px;
     justify-content: center;
-    /* flex-wrap: wrap; */
 }
 .div7 {
     background-color: #ffffff;
@@ -671,7 +663,6 @@ color: #62C3E7;
     margin: 5px 40px;
 }
 
-/* Purchase button */
 .btn7 {
     padding: 10px 20px;
     font-size: 0.9em;
@@ -680,7 +671,6 @@ color: #62C3E7;
     background-color: transparent;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s, color 0.3s;
 }
 
 .btn7:hover {
@@ -879,13 +869,10 @@ color: #62C3E7;
 }
 
 .div10{
-    /* border-radius: 20px; */
     position: relative;
     width: 400px;
     height: 600px;
     margin-top: 30px;
-    /* border: 1px solid #FF69B4; */
-    /* padding-top: 20px; */
  }
  .div10:after {
     content: " ";
